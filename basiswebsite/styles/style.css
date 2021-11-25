@@ -1,0 +1,128 @@
+/* CSS Document */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hier staat de root code */
+
+:root {
+  --background-color: #e4e1dc;
+  --second-background-color: #f4eddd;
+  --body-background-color: #faf9f8;
+  --main-color: #222;
+  --color-white: white;
+  --pink-background-color: #ef9797;
+  --red-color: #e30b1f;
+}
+
+/* Hier eindigt de root code */
+
+body {
+  background-color: var(--body-background-color);
+}
+
+.logo {
+  height: 20px;
+  width: auto;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'roboto';
+  font-weight: bold;
+}
+
+p {
+  font-family: 'roboto';
+  font-weight: normal;
+  font-size: 0.7em;
+}
+
+
+section:nth-of-type(2) {
+  background-color: var(--background-color);
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  margin: 1.5em;
+}
+
+section:nth-of-type(3) {
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  background-image: url('../images/hmgoepprod-jas.jpeg');
+  margin: 1.5em;
+
+}
+
+section:nth-of-type(5) {
+  background-color: var(--pink-background-color);
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  margin: 1.5em;
+}
+
+section:nth-of-type(6) {
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  background-image: url('../images/hmgoepprod-trui.jpeg');
+  margin: 1.5em;
+}
+
+section:nth-of-type(7) {
+  background-color: var(--background-color);
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  margin: 1.5em;
+}
+
+section:nth-of-type(7) h1 {
+  color: var(--red-color);
+}
+
+section:nth-of-type(8) {
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  background-image: url('../images/hmgoepprod.jpeg');
+  margin: 1.5em;
+}
+
+section article:nth-of-type(1) {
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  background-image: url('../images/hmgoepprod-blauw.jpeg');
+  margin: 1.5em;
+}
+
+section article:nth-of-type(2) {
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  background-image: url('../images/hmgoepprod-kerst.jpeg');
+  margin: 1.5em;
+}
+
+section article:nth-of-type(3) {
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  background-image: url('../images/hmgoepprod-rodetas.jpeg');
+  margin: 1.5em;
+}
+
+section article:nth-of-type(4) {
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  background-image: url('../images/hmgoepprod-fiets.jpeg');
+  margin: 1.5em;
+}
+
+section:nth-of-type(9) {
+  background-color: var(--second-background-color);
+}
