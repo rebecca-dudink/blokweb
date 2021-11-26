@@ -82,15 +82,12 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| Rebecca            | Beyza                | Isabelle van Huystee          | Daan Honing              |
-| hoe ik het beste een logo in de header zet| -             | een img over een img kan zetten    | hoe animatie infade op websit    |
-| Hoe ik de p en h1 in een section kan aanpassen | dit als er tijd is | indeling maken verschillende buttons | - |
-| waarom de pagina niet verder wilt scrollen            | -                | -          | -              |
-
  Rebecca:hoe ik het beste een logo in de header zet zonder class, p en h1 in een section kan aanpassen,waarom de pagina niet verder wilt scrollen
+ 
  Beyza: -
+ 
  Isabelle van Huystee: een img over een img kan zetten, indeling maken verschillende buttons
+ 
  Daan Honing:hoe animatie infade op website
 
 ### Verslag van meeting
