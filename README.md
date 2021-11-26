@@ -56,7 +56,7 @@ Hm the holiday shop
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="./images/Fed-menu.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="./images/Fed-pagina1.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 
 ### dynamisch deel (bijv menu): 
