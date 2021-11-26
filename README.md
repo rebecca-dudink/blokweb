@@ -56,14 +56,14 @@ Hm the holiday shop
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
- ![Fed-pagina2](https://user-images.githubusercontent.com/94301537/143588385-4bc9ca26-8876-4aa5-b86d-800295fbe04c.jpg)
+<img src="./images/Fed-menu.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 
 ### dynamisch deel (bijv menu): 
-<img src="images/Fed-menu.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="./images/Fed-menu.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/Fed-pagina2.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="./images/Fed-pagina2.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
