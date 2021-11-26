@@ -79,7 +79,7 @@ Hm the holiday shop
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 <img src="./images/code-gesprek1.jpg" width="375px" alt="breakdown van een dynamisch deel">
-<img src="./images/screenshot-website1.png" width="375px" alt="breakdown van een dynamisch deel">
+<img src="./images/screenshot-website1.png" width="375px" alt="breakdown van een dynamisch deel 1">
 
 
 ### Agenda voor meeting
