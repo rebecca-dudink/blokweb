@@ -83,10 +83,10 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 samen met je groepje opstellen
 
 | student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| hoe ik het beste een logo in de header zet| en dit             | en ik dit    | en dan ik dat    |
-| Hoe ik de p en h1 in een section kan aanpassen | dit als er tijd is | nog een punt | dit wil ik zeker |
-| waarom de pagina niet verder wilt scrollen            | ...                | ...          | ...              |
+| Rebecca            | Beyza                | Isabelle van Huystee          | Daan Honing              |
+| hoe ik het beste een logo in de header zet| -             | een img over een img kan zetten    | hoe animatie infade op websit    |
+| Hoe ik de p en h1 in een section kan aanpassen | dit als er tijd is | indeling maken verschillende buttons | - |
+| waarom de pagina niet verder wilt scrollen            | -                | -          | -              |
 
 
 ### Verslag van meeting
