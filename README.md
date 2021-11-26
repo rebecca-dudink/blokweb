@@ -88,6 +88,10 @@ samen met je groepje opstellen
 | Hoe ik de p en h1 in een section kan aanpassen | dit als er tijd is | indeling maken verschillende buttons | - |
 | waarom de pagina niet verder wilt scrollen            | -                | -          | -              |
 
+ Rebecca:hoe ik het beste een logo in de header zet zonder class, p en h1 in een section kan aanpassen,waarom de pagina niet verder wilt scrollen
+ Beyza: -
+ Isabelle van Huystee: een img over een img kan zetten, indeling maken verschillende buttons
+ Daan Honing:hoe animatie infade op website
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
