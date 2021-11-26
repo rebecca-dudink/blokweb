@@ -236,7 +236,7 @@ hier screenshot(s) van je eindresultaat
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. bron 1
-2. bron 2
+2. bron 2,
 3. ...
 
 </details>
