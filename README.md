@@ -111,7 +111,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+ 
+<img src="./images/voortgang2-html.jpg" width="375px" alt="html">
+ 
+<img src="./images/voortgang2-css.jpg" width="375px" alt="css">
+ 
+<img src="./images/voortgang2-uitwerking.jpg" width="375px" alt="uitwerking">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
