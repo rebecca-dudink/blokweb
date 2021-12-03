@@ -1,5 +1,474 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+/* Hier staat de root code */
+
+:root {
+  --background-color: #e4e1dc;
+  --second-background-color: #f4eddd;
+  --body-background-color: #faf9f8;
+  --main-color: #222;
+  --color-white: white;
+  --pink-background-color: #ef9797;
+  --red-color: #e30b1f;
+  --footer-color: #e4e4e4;
+}
+
+/* Hier eindigt de root code */
+
+header {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  height: 5em;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: var(--color-white);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1.4em;
+  padding-bottom: 1.4em;
+
+
+  z-index: 3;
+}
+
+header nav {
+  position: fixed;
+
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  transform: translateX(-100%);
+  background-color: var(--color-white);
+  z-index: 3;
+}
+
+.menu-open {
+  transform: translateX(0%);
+  transition: 0.5s;
+}
+
+main {
+  margin-top: 6em;
+}
+
+body {
+  background-color: var(--body-background-color);
+}
+
+.logo {
+  height: 20px;
+  width: auto;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+/* button/iconen die in de header staan*/
+button {
+  border: 0px;
+  background: white;
+}
+
+/* button/iconen die in de header staan*/
+button img {
+  width: 2em;
+  background-color: var(--color-white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'roboto';
+  font-weight: bold;
+}
+
+p {
+  font-family: 'roboto';
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+
+/* section 1*/
+section:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* section 2*/
+section:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+
+
+  background-color: var(--background-color);
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  margin: 1.5em;
+}
+
+
+/* alle image krijgen een donkere overlay zodat je de tekst ziet*/
+.has-backdrop {
+  position: relative;
+}
+
+
+/* alle image krijgen een donkere overlay zodat je de tekst ziet*/
+.has-backdrop::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+
+/* alle image krijgen een donkere overlay zodat je de tekst ziet*/
+.has-backdrop p,
+.has-backdrop h1,
+.has-backdrop h2 {
+  position: relative;
+  z-index: 2;
+}
+
+
+/* section 3*/
+section:nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+
+  position: relative;
+
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  background-image: url('../images/hmgoepprod-jas.jpeg');
+  background-repeat: no-repeat;
+  margin: 1.5em;
+  padding-bottom: 1em;
+}
+
+section:nth-of-type(3) h1 {
+  color: var(--color-white);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+section:nth-of-type(3) p {
+  color: var(--color-white);
+}
+
+
+/* Begin code voor slider producten */
+/* section 4*/
+section:nth-of-type(4) {
+  text-align: left;
+  padding: 2em;
+}
+
+section:nth-of-type(4) ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  list-style: none;
+  overflow-x: scroll;
+}
+
+section:nth-of-type(4) li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.8em;
+}
+
+section:nth-of-type(4) li img {
+  border-radius: 100%;
+}
+
+/* Einde code voor slider producten */
+
+
+/* section 5*/
+section:nth-of-type(5) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+
+  background-color: var(--second-background-color);
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  margin: 1.5em;
+}
+
+
+/* section 6*/
+section:nth-of-type(6) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  background-image: url('../images/hmgoepprod-trui.jpeg');
+  margin: 1.5em;
+  padding-bottom: 1em;
+}
+
+section:nth-of-type(6) h1 {
+  color: var(--color-white);
+  font-size: 1em;
+}
+
+section:nth-of-type(6) h2 {
+  color: var(--color-white);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-size: 1.3em;
+}
+
+section:nth-of-type(6) p {
+  color: var(--color-white);
+}
+
+
+/* section 7*/
+section:nth-of-type(7) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+
+  background-color: var(--background-color);
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  margin: 1.5em;
+}
+
+section:nth-of-type(7) h1 {
+  color: var(--red-color);
+}
+
+
+/* section 8*/
+section:nth-of-type(8) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  background-image: url('../images/hmgoepprod.jpeg');
+  margin: 1.5em;
+  padding-bottom: 1em;
+}
+
+section:nth-of-type(8) h2 {
+  color: var(--color-white);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+section:nth-of-type(8) p {
+  color: var(--color-white);
+}
+
+
+/* section 9*/
+section:nth-of-type(9) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+}
+
+section:nth-of-type(9) h1 {
+  font-family: 'roboto';
+  font-size: 2em;
+  font-weight: inherit;
+  text-transform: uppercase;
+  line-height: 2em;
+}
+
+section:nth-of-type(9) p {
+  font-family: 'roboto';
+  text-transform: uppercase;
+  line-height: 2em;
+}
+
+section:nth-of-type(9) h4 {
+  font-family: 'roboto';
+  text-transform: uppercase;
+  line-height: 2em;
+  text-decoration: underline;
+}
+
+
+/* Hier beginnen de article in de section */
+section article a {
+  color: var(--color-white);
+  z-index: 2;
+  font-family: 'roboto';
+  text-decoration: underline;
+}
+
+
+/* article 1*/
+section article:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  background-image: url('../images/hmgoepprod-blauw.jpeg');
+  margin: 1.5em;
+  padding-bottom: 1em;
+
+}
+
+section article:nth-of-type(1) h2 {
+  color: var(--color-white);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+section article:nth-of-type(1) p {
+  color: var(--color-white);
+}
+
+
+/* article 2*/
+section article:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  background-image: url('../images/hmgoepprod-kerst.jpeg');
+  margin: 1.5em;
+  padding-bottom: 1em;
+
+}
+
+section article:nth-of-type(2) h2 {
+  color: var(--color-white);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+section article:nth-of-type(2) p {
+  color: var(--color-white);
+}
+
+
+/* article 3*/
+section article:nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  background-image: url('../images/hmgoepprod-rodetas.jpeg');
+  margin: 1.5em;
+  padding-bottom: 1em;
+}
+
+section article:nth-of-type(3) h2 {
+  color: var(--color-white);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+section article:nth-of-type(3) p {
+  color: var(--color-white);
+}
+
+
+/* article 4*/
+section article:nth-of-type(4) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  height: calc(100vw - 3em);
+  width: calc(100vw - 3em);
+  background-image: url('../images/hmgoepprod-fiets.jpeg');
+  margin: 1.5em;
+}
+
+section article:nth-of-type(4) h2 {
+  color: var(--color-white);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+section article:nth-of-type(4) p {
+  color: var(--color-white);
+}
+
+/* hier eindigen de articles in de section*/
+
+
+/* section 9*/
+section:nth-of-type(9) {
+  background-color: var(--second-background-color);
+}
+
+
+/* Hier begint de footer */
+footer {
+  background-color: var(--red-color);
+}
+
+section article:nth-of-type(4) h2 {
+  color: var(--color-white);
+  font-family: 'Times New Roman', Times, serif;
+}
