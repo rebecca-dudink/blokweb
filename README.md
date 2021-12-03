@@ -96,10 +96,7 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+ 
 
 </details>
 
@@ -119,12 +116,13 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+Rebecca:In de footer staat een section met een article er in alleen hier komt een afbeelding in te staan want op de zelfde manier wordt die section en article gebruikt bij section 9 article 1 en hoe laat ik het menu weer sluiten. 
+ 
+ Beyza: -
+ 
+ Isabelle van Huystee: hoe maak ik een boxshadow bij de button, hoe kan ik het beste uitklappen hamburger menu maken en waarom schaalt deze niet mee naar center als ik wel hetzelfde heb gecodeerd - regel 205
+ 
+ Daan Honing:Hoe kan ik mijn menu button laten animeren? , hoe kan er voorzorgen dat de menu knop bovenaan staat
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
