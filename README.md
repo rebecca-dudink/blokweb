@@ -116,7 +116,7 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
  
 <img src="./images/voortgang2-css.jpg" width="375px" alt="css">
  
-<img src="./images/voortgang2-uitwerking.jpg" width="375px" alt="uitwerking">
+<img src="./images/voortgang2-uitwerking.png" width="375px" alt="uitwerking">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
