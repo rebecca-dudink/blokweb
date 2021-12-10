@@ -196,7 +196,7 @@ rebecca:
 hoe sluit ik het filter menu, waarom doet mijn lees meer button het niet, hoe kan ik het hartje van kleur laten veranderen en of ik ook 5 verschillende surface plane heb.
  
  Daan:
- -
+ heeft geen vragen
  
  Isabelle:
  of ik 5 verschillende surface plane onderdelen heb
