@@ -18,6 +18,8 @@
   --pink-background-color: #ef9797;
   --red-color: #e30b1f;
   --footer-color: #e4e4e4;
+  --menu-item-color: #333;
+  --inloggen-kleur: #ffe6e6;
 }
 
 /* Hier eindigt de root code */
@@ -49,8 +51,130 @@ header nav {
   right: 0;
   transform: translateX(-100%);
   background-color: var(--color-white);
-  z-index: 3;
+  z-index: 4;
+  margin-top: 5em;
 }
+
+/* li en img voor het hamburger menu*/
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+
+header nav ul li a {
+  margin-left: 1em;
+
+  font-family: 'roboto';
+  font-size: 1.3em;
+
+  line-height: 3em;
+  text-decoration: none;
+  color: var(--menu-item-color);
+}
+
+header nav ul li img {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 2em;
+
+}
+
+
+header nav ul li:nth-of-type(1) {
+  font-size: 0.7em;
+  text-transform: uppercase;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--inloggen-kleur);
+
+  padding: 1em;
+}
+
+header nav ul li:nth-of-type(1) a {
+  color: var(--red-color);
+}
+
+
+header nav ul li:nth-of-type(2) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--color-white);
+}
+
+header nav ul li:nth-of-type(3) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--color-white);
+}
+
+header nav ul li:nth-of-type(4) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--color-white);
+}
+
+header nav ul li:nth-of-type(5) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--color-white);
+}
+
+header nav ul li:nth-of-type(6) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--color-white);
+}
+
+header nav ul li:nth-of-type(7) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--color-white);
+}
+
+header nav ul li:nth-of-type(8) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--color-white);
+}
+
+header nav ul li:nth-of-type(9) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--color-white);
+}
+
+header nav ul li img {
+  width: 8%;
+}
+
+.menu-kleine-links {
+  margin-left: 1em;
+  font-size: 0.6em;
+  list-style: none;
+}
+
+/* Einde li en img voor het hamburger menu*/
 
 .menu-open {
   transform: translateX(0%);
@@ -66,10 +190,9 @@ body {
 }
 
 .logo {
-  height: 20px;
+  height: 80%;
   width: auto;
-  margin-top: 1em;
-  margin-left: 1em;
+  margin-right: 3em;
 }
 
 /* button/iconen die in de header staan*/
@@ -121,7 +244,7 @@ section:nth-of-type(2) {
 
 
   background-color: var(--background-color);
-  height: calc(100vw - 3em);
+  height: fit-content;
   width: calc(100vw - 3em);
   margin: 1.5em;
 }
@@ -174,9 +297,9 @@ section:nth-of-type(3) {
   padding-bottom: 1em;
 }
 
-section:nth-of-type(3) h1 {
+section:nth-of-type(3) h2 {
   color: var(--color-white);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman';
 }
 
 section:nth-of-type(3) p {
@@ -227,7 +350,7 @@ section:nth-of-type(5) {
   padding: 2em;
 
   background-color: var(--second-background-color);
-  height: calc(100vw - 3em);
+  height: fit-content;
   width: calc(100vw - 3em);
   margin: 1.5em;
 }
@@ -256,7 +379,7 @@ section:nth-of-type(6) h1 {
 
 section:nth-of-type(6) h2 {
   color: var(--color-white);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman';
   font-weight: lighter;
   font-size: 1.3em;
 }
@@ -276,7 +399,7 @@ section:nth-of-type(7) {
   padding: 2em;
 
   background-color: var(--background-color);
-  height: calc(100vw - 3em);
+  height: fit-content;
   width: calc(100vw - 3em);
   margin: 1.5em;
 }
@@ -304,7 +427,7 @@ section:nth-of-type(8) {
 
 section:nth-of-type(8) h2 {
   color: var(--color-white);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman';
 }
 
 
@@ -367,12 +490,11 @@ section article:nth-of-type(1) {
   background-image: url('../images/hmgoepprod-blauw.jpeg');
   margin: 1.5em;
   padding-bottom: 1em;
-
 }
 
 section article:nth-of-type(1) h2 {
   color: var(--color-white);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman';
 }
 
 section article:nth-of-type(1) p {
@@ -398,7 +520,7 @@ section article:nth-of-type(2) {
 
 section article:nth-of-type(2) h2 {
   color: var(--color-white);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman';
 }
 
 section article:nth-of-type(2) p {
@@ -423,7 +545,7 @@ section article:nth-of-type(3) {
 
 section article:nth-of-type(3) h2 {
   color: var(--color-white);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman';
 }
 
 section article:nth-of-type(3) p {
@@ -447,7 +569,7 @@ section article:nth-of-type(4) {
 
 section article:nth-of-type(4) h2 {
   color: var(--color-white);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman';
 }
 
 section article:nth-of-type(4) p {
@@ -465,10 +587,407 @@ section:nth-of-type(9) {
 
 /* Hier begint de footer */
 footer {
-  background-color: var(--red-color);
+  background-color: var(--footer-color);
 }
 
-section article:nth-of-type(4) h2 {
+/* Hier begint de footer section 1 */
+footer section {
+  width: calc(100vw - 3em);
+  margin: 1.5em;
+}
+
+footer summary {
+  font-family: 'roboto';
+  font-size: 1em;
+  font-weight: initial;
+  text-transform: uppercase;
+  margin-top: 3em;
+}
+
+footer section:nth-of-type(1) summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer section:nth-of-type(1) summary img {
+  width: 7%;
+  margin-left: 3em;
+}
+
+footer section:nth-of-type(1) details[open] summary img {
+  transform: rotate(45deg);
+}
+
+footer section:nth-of-type(1) details ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  list-style: none;
+  line-height: 3em;
+}
+
+
+footer section:nth-of-type(1) details ul li a {
+  font-family: 'roboto';
+  font-size: 1em;
+  color: var(--menu-item-color);
+  text-decoration: none;
+}
+
+/* Hier begint de footer section 2 */
+
+footer section:nth-of-type(2) {
+  background-color: var(--footer-color);
+  height: fit-content;
+}
+
+footer section:nth-of-type(2) h2 {
+  font-family: 'roboto';
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-bottom: 0.7em;
+}
+
+/* HIER MEER NAAR VRAGEN DE LEES MEER KNOP EN PIJL
+
+footer section:nth-of-type(2) a img{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer section:nth-of-type(2) a {
+  font-family: 'roboto';
+  font-size: 1em;
+  color: var(--menu-item-color);
+  text-decoration: none;
+
+  text-transform: uppercase;
+}
+
+footer section:nth-of-type(2) img{
+  width: 7%;
+  margin-left: 3em;
+}
+*/
+
+footer section:nth-of-type(3) {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  height: fit-content;
+
+  background-image: none;
+}
+
+footer section:nth-of-type(3) button {
+  background-color: var(--footer-color);
+}
+
+footer section:nth-of-type(3) img {
+  width: 50%;
+  background-color: var(--footer-color);
+}
+
+/* Hier begint de footer section 4 */
+footer section:nth-of-type(4) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: fit-content;
+}
+
+footer section:nth-of-type(4) a {
+  font-family: 'roboto';
+  font-size: 1em;
+  color: var(--menu-item-color);
+  text-decoration: none;
+  text-transform: uppercase;
+
+  margin-top: 0.5em;
+}
+
+footer section:nth-of-type(4) img {
+  width: 100%;
+  margin-top: 1em;
+}
+
+footer section:nth-of-type(4) h3 {
+  font-family: 'roboto';
+  font-size: 0.8em;
+  font-weight: initial;
+  margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PAGINA 2 */
+/* section 1 */
+.page2 main section:nth-of-type(1) {
+  background-color: none;
+}
+
+.page2 main section:nth-of-type(1) p {
+  font-family: 'roboto';
+}
+
+/* section 2 */
+.page2 main section:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+
+  position: relative;
+
+  height: calc(50vw - 3em);
+  width: calc(100vw - 3em);
+  background-image: url('../images/kerst-banner.jpeg');
+  background-repeat: no-repeat;
+  margin: 1.5em;
+  padding-bottom: 1em;
+}
+
+.page2 main section:nth-of-type(2) img {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  padding-left: 11em;
+
+  height: 20%;
+  z-index: 1;
+}
+
+/* section 3 */
+.page2 main section:nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+
+
+  background-color: none;
+  background-image: none;
+  height: fit-content;
+  width: calc(100vw - 3em);
+  margin: 1.5em;
+}
+
+.page2 main section:nth-of-type(3) h1 {
+  font-family: 'roboto';
+  text-transform: uppercase;
+  color: var(--main-color);
+
+  margin-bottom: 0.5em;
+}
+
+.page2 main section:nth-of-type(3) p {
+  font-family: 'roboto';
+  font-weight: normal;
+  font-size: 0.8em;
+  color: var(--main-color);
+}
+
+/* section 3  articles 1 */
+.page2 main section:nth-of-type(3) article:nth-of-type(1) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  height: fit-content;
+  width: calc(100vw - 3em);
+  background-image: none;
+  margin: 1.5em;
+  padding-bottom: 1em;
+}
+
+/* VRAAG NAAR SUMMARY EN FILTER & SORTEREN UITKLAP MENU*/
+.page2 main section:nth-of-type(3) article:nth-of-type(1) details summary{
+  font-family: 'roboto';
+  font-size: 1em;
+  margin-left: 1em;
+  color: var(--main-color);
+}
+
+
+.page2 main section:nth-of-type(3) article:nth-of-type(1) a{ /*filteren en sorteren link*/
+  font-family: 'roboto';
+  font-size: 1em;
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.page2 .filter-menu { /*Waar het menu komt te staan*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: red;
+  z-index: 5;
+  transform: translateX(100%);
+}
+
+.page2 .filter-menu.menu-open { /*Hoe het menu gaat uitklappen*/
+  transform: translateX(0);
+}
+
+.page2 section:nth-of-type(3) article:nth-of-type(1) nav ul li{
+  list-style: none;
+}
+
+
+
+.page2 main section:nth-of-type(3) article:nth-of-type(1) img{
+  width: 7%;
+  margin-left: 0.5em;
+}
+
+
+/* section 3  articles 2 */
+.page2 main section:nth-of-type(3) article:nth-of-type(2) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  height: fit-content;
+  width: calc(100vw - 3em);
+
+  margin: 0;
+  padding: 0;
+  background-image: none;
+  background-color: none;
+}
+
+
+
+
+.page2 main section:nth-of-type(3) article:nth-of-type(2) ul {
+  display: flex;
+  flex-direction: row;
+
+  background-color: none;
+}
+
+.page2 main section:nth-of-type(3) article:nth-of-type(2) ul li {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1em;
+}
+
+.page2 main section:nth-of-type(3) article:nth-of-type(2) ul li a {
+  font-family: 'roboto';
+  font-size: 1em;
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+
+
+
+
+
+
+
+/* section 3  articles 3 */
+.page2 main section:nth-of-type(3) article:nth-of-type(3) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  height: fit-content;
+  width: calc(100vw - 3em);
+  background-image: none;
+  margin: 1.5em;
+  padding-bottom: 1em;
+}
+
+.page2 main section:nth-of-type(3) article:nth-of-type(3) ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  gap: 1em;
+}
+
+.page2 main section:nth-of-type(3) article:nth-of-type(3) ul li {
+  list-style: none;
+  width: 40vw;
+  position: relative;
+  /*krijgt dit omdat je dan het hartje kan positioneren op de img*/
+}
+
+.page2 main section:nth-of-type(3) article:nth-of-type(3) ul li p {
+  font-family: 'roboto';
+  font-size: 0.6em;
+  color: var(--menu-item-color);
+  margin-bottom: 0.4em;
+}
+
+.page2 main section:nth-of-type(3) article:nth-of-type(3) ul li h3 {
+  font-family: 'roboto';
+  font-size: 0.8em;
+  font-weight: normal;
+  color: var(--menu-item-color);
+  margin-bottom: 0.4em;
+}
+
+.page2 main section:nth-of-type(3) article:nth-of-type(3) ul li img {
+  max-width: 43vw;
+}
+
+.page2 main section:nth-of-type(3) article:nth-of-type(3) ul li img:nth-of-type(2) {
+  width: 15%;
+  position: absolute;
+  /*dit is de positie van het hartje op de afbeelding (parent li) kan je hem verplaatsen met top, bottom, right en left */
+  bottom: 5em;
+  right: 0em;
+}
+
+.page2 main section:nth-of-type(3) article:nth-of-type(4) {
+  background-image: none;
+  width: fit-content;
+  height: fit-content;
+}
+
+.page2 main section:nth-of-type(3) article:nth-of-type(4) a {
+  font-family: 'roboto';
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
   color: var(--color-white);
-  font-family: 'Times New Roman', Times, serif;
+
+  width: calc(100vw - 3em);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+
+  background-color: var(--main-color);
 }
