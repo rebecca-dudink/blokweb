@@ -7,8 +7,8 @@
   padding: 0;
 }
 
-/* Hier staat de root code */
 
+/* Hier staat de root met alle kleuren die gebruikt worden */
 :root {
   --background-color: #e4e1dc;
   --second-background-color: #f4eddd;
@@ -24,6 +24,8 @@
 
 /* Hier eindigt de root code */
 
+
+/* begin header */
 header {
   position: fixed;
   width: 100vw;
@@ -42,6 +44,8 @@ header {
   z-index: 3;
 }
 
+
+/* de nav in de header */
 header nav {
   position: fixed;
 
@@ -55,13 +59,12 @@ header nav {
   margin-top: 5em;
 }
 
-/* li en img voor het hamburger menu*/
 
+/* ul li a en img voor het hamburger menu*/
 ul {
   padding: 0;
   margin: 0;
 }
-
 
 header nav ul li a {
   margin-left: 1em;
@@ -174,12 +177,39 @@ header nav ul li img {
   list-style: none;
 }
 
+.logo {
+  height: 80%;
+  width: auto;
+  margin-right: 3em;
+}
+
+
+/* a iconen die in de header staan*/
+header a {
+  border: 0px;
+  width: 2em;
+  background: none;
+}
+
+
+/* a iconen die in de header staan*/
+a img {
+  width: 2em;
+  background-color: var(--color-white);
+}
+
+/* einde ul li a en img voor het hamburger menu*/
 /* Einde li en img voor het hamburger menu*/
+
 
 .menu-open {
   transform: translateX(0%);
   transition: 0.5s;
 }
+
+/* einde header */
+
+
 
 main {
   margin-top: 6em;
@@ -187,24 +217,6 @@ main {
 
 body {
   background-color: var(--body-background-color);
-}
-
-.logo {
-  height: 80%;
-  width: auto;
-  margin-right: 3em;
-}
-
-/* button/iconen die in de header staan*/
-button {
-  border: 0px;
-  background: white;
-}
-
-/* button/iconen die in de header staan*/
-button img {
-  width: 2em;
-  background-color: var(--color-white);
 }
 
 h1,
@@ -223,7 +235,7 @@ p {
 }
 
 
-/* section 1*/
+/* section 1 begin - standaardlevering tekst*/
 section:nth-of-type(1) {
   display: flex;
   flex-direction: column;
@@ -232,8 +244,10 @@ section:nth-of-type(1) {
   text-align: center;
 }
 
+/* section 1 einde - standaardlevering tekst*/
 
-/* section 2*/
+
+/* section 2 begin - 1ste vak met tekst*/
 section:nth-of-type(2) {
   display: flex;
   flex-direction: column;
@@ -248,6 +262,8 @@ section:nth-of-type(2) {
   width: calc(100vw - 3em);
   margin: 1.5em;
 }
+
+/* section 2 einde - 1ste vak met tekst*/
 
 
 /* alle image krijgen een donkere overlay zodat je de tekst ziet*/
@@ -278,7 +294,7 @@ section:nth-of-type(2) {
 }
 
 
-/* section 3*/
+/* section 3 begin - Winter wonderful h2 en p*/
 section:nth-of-type(3) {
   display: flex;
   flex-direction: column;
@@ -306,9 +322,10 @@ section:nth-of-type(3) p {
   color: var(--color-white);
 }
 
+/* section 3 einde - Winter wonderful h2 en p*/
 
-/* Begin code voor slider producten */
-/* section 4*/
+
+/* section 4 begin - Begin code voor slider producten ul, li, li h5, li p, li img*/
 section:nth-of-type(4) {
   text-align: left;
   padding: 2em;
@@ -333,14 +350,23 @@ section:nth-of-type(4) li {
   padding: 0.8em;
 }
 
-section:nth-of-type(4) li img {
-  border-radius: 100%;
+section:nth-of-type(4) li h5 {
+  order: 2;
 }
 
-/* Einde code voor slider producten */
+section:nth-of-type(4) li p {
+  order: 3;
+}
+
+section:nth-of-type(4) li img {
+  border-radius: 100%;
+  order: 1;
+}
+
+/* section 4 einde - Begin code voor slider producten ul, li, li h5, li p, li img*/
 
 
-/* section 5*/
+/* section 5 begin - 2de tekst vak Win je aankoopbedrag terug*/
 section:nth-of-type(5) {
   display: flex;
   flex-direction: column;
@@ -355,8 +381,10 @@ section:nth-of-type(5) {
   margin: 1.5em;
 }
 
+/* section 5 einde - 2de tekst vak Win je aankoopbedrag terug*/
 
-/* section 6*/
+
+/* section 6 begin - The gist guide section met achtergrond afbeelding en een donkere overlay h1, h2, p*/
 section:nth-of-type(6) {
   display: flex;
   flex-direction: column;
@@ -388,8 +416,10 @@ section:nth-of-type(6) p {
   color: var(--color-white);
 }
 
+/* section 6 einde - The gist guide section met achtergrond afbeelding en een donkere overlay h1, h2, p*/
 
-/* section 7*/
+
+/* section 7 begin - 3de tekst vak Exclusief voor members h1*/
 section:nth-of-type(7) {
   display: flex;
   flex-direction: column;
@@ -408,8 +438,10 @@ section:nth-of-type(7) h1 {
   color: var(--red-color);
 }
 
+/* section 7 einde - 3de tekst vak Exclusief voor members h1*/
 
-/* section 8*/
+
+/* section 8 begin - Decorate for joyful traditions kerst section meet achtergrond afbeelding en overlay h2, p*/
 section:nth-of-type(8) {
   display: flex;
   flex-direction: column;
@@ -435,8 +467,10 @@ section:nth-of-type(8) p {
   color: var(--color-white);
 }
 
+/* section 8 einde - Decorate for joyful traditions kerst section meet achtergrond afbeelding en overlay h2, p*/
 
-/* section 9*/
+
+/* section 9 begin - Magazine h1, p, h4*/
 section:nth-of-type(9) {
   display: flex;
   flex-direction: column;
@@ -444,6 +478,7 @@ section:nth-of-type(9) {
   align-items: center;
   text-align: center;
   padding: 2em;
+  background-color: var(--second-background-color);
 }
 
 section:nth-of-type(9) h1 {
@@ -465,10 +500,13 @@ section:nth-of-type(9) h4 {
   text-transform: uppercase;
   line-height: 2em;
   text-decoration: underline;
+  color: var(--main-color);
 }
 
+/* section 9 einde - Magazine h1, p, h4*/
 
-/* Hier beginnen de article in de section */
+
+/* Hier beginnen de article in section 9 */
 section article a {
   color: var(--color-white);
   z-index: 2;
@@ -477,7 +515,7 @@ section article a {
 }
 
 
-/* article 1*/
+/* article 1 begin - a circular design story h2, p*/
 section article:nth-of-type(1) {
   display: flex;
   flex-direction: column;
@@ -501,8 +539,10 @@ section article:nth-of-type(1) p {
   color: var(--color-white);
 }
 
+/* article 1 einde - a circular design story h2, p*/
 
-/* article 2*/
+
+/* article 2 begin - the perfect gift for her h2, p*/
 section article:nth-of-type(2) {
   display: flex;
   flex-direction: column;
@@ -515,7 +555,6 @@ section article:nth-of-type(2) {
   background-image: url('../images/hmgoepprod-kerst.jpeg');
   margin: 1.5em;
   padding-bottom: 1em;
-
 }
 
 section article:nth-of-type(2) h2 {
@@ -527,8 +566,10 @@ section article:nth-of-type(2) p {
   color: var(--color-white);
 }
 
+/* article 2 einde - the perfect gift for her h2, p*/
 
-/* article 3*/
+
+/* article 3 begin - Cute gifts for kids h2, p*/
 section article:nth-of-type(3) {
   display: flex;
   flex-direction: column;
@@ -552,37 +593,8 @@ section article:nth-of-type(3) p {
   color: var(--color-white);
 }
 
-
-/* article 4*/
-section article:nth-of-type(4) {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  height: calc(100vw - 3em);
-  width: calc(100vw - 3em);
-  background-image: url('../images/hmgoepprod-fiets.jpeg');
-  margin: 1.5em;
-}
-
-section article:nth-of-type(4) h2 {
-  color: var(--color-white);
-  font-family: 'Times New Roman';
-}
-
-section article:nth-of-type(4) p {
-  color: var(--color-white);
-}
-
-/* hier eindigen de articles in de section*/
-
-
-/* section 9*/
-section:nth-of-type(9) {
-  background-color: var(--second-background-color);
-}
+/* article 3 einde - Cute gifts for kids h2, p*/
+/* hier eindigen de articles in section 9*/
 
 
 /* Hier begint de footer */
@@ -590,7 +602,7 @@ footer {
   background-color: var(--footer-color);
 }
 
-/* Hier begint de footer section 1 */
+/* section 1 begin - uitklap menu's per categorie summary, summary img, details ul li, details ul li a */
 footer section {
   width: calc(100vw - 3em);
   margin: 1.5em;
@@ -638,8 +650,10 @@ footer section:nth-of-type(1) details ul li a {
   text-decoration: none;
 }
 
-/* Hier begint de footer section 2 */
+/* section 1 einde - uitklap menu's per categorie summary, summary img, details ul li, details ul li a */
 
+
+/* section 2 begin - aanmelden section h2, a */
 footer section:nth-of-type(2) {
   background-color: var(--footer-color);
   height: fit-content;
@@ -653,41 +667,31 @@ footer section:nth-of-type(2) h2 {
   margin-bottom: 0.7em;
 }
 
-/* HIER MEER NAAR VRAGEN DE LEES MEER KNOP EN PIJL
-
-footer section:nth-of-type(2) a img{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-}
 
 footer section:nth-of-type(2) a {
   font-family: 'roboto';
-  font-size: 1em;
-  color: var(--menu-item-color);
-  text-decoration: none;
-
+  font-weight: bolder;
+  color: var(--main-color);
   text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.9em;
+  margin-top: 0.5em;
 }
 
-footer section:nth-of-type(2) img{
-  width: 7%;
-  margin-left: 3em;
-}
-*/
+/* section 2 einde - aanmelden section h2, a */
 
+
+/* section 3 begin - social media a, img */
 footer section:nth-of-type(3) {
   display: flex;
   flex-direction: row;
   justify-content: center;
 
   height: fit-content;
-
   background-image: none;
 }
 
-footer section:nth-of-type(3) button {
+footer section:nth-of-type(3) a {
   background-color: var(--footer-color);
 }
 
@@ -696,7 +700,10 @@ footer section:nth-of-type(3) img {
   background-color: var(--footer-color);
 }
 
-/* Hier begint de footer section 4 */
+/* section 3 einde - social media a, img */
+
+
+/* section 4 begin - algemenen voorwaarden a, img, h3 */
 footer section:nth-of-type(4) {
   display: flex;
   flex-direction: column;
@@ -727,6 +734,7 @@ footer section:nth-of-type(4) h3 {
   margin-top: 1em;
 }
 
+/* section 4 einde - algemenen voorwaarden a, img, h3 */
 
 
 
@@ -735,12 +743,12 @@ footer section:nth-of-type(4) h3 {
 
 
 
+/******************************/
+/* PAGINA 2 - DECORATIES */
+/******************************/
 
 
-
-
-/* PAGINA 2 */
-/* section 1 */
+/* section 1 begin - broodkruimels p */
 .page2 main section:nth-of-type(1) {
   background-color: none;
 }
@@ -749,7 +757,10 @@ footer section:nth-of-type(4) h3 {
   font-family: 'roboto';
 }
 
-/* section 2 */
+/* section 1 einde - broodkruimels p */
+
+
+/* section 2 begin - img als achtergrond foto img */
 .page2 main section:nth-of-type(2) {
   display: flex;
   flex-direction: column;
@@ -775,11 +786,14 @@ footer section:nth-of-type(4) h3 {
 
   padding-left: 11em;
 
-  height: 20%;
+  height: 40%;
   z-index: 1;
 }
 
-/* section 3 */
+/* section 2 einde - img als achtergrond foto img */
+
+
+/* section 3 begin - The Holiday Shop / De titel en tekst en alle producten + links staan hierin / h1, p, a en articles  */
 .page2 main section:nth-of-type(3) {
   display: flex;
   flex-direction: column;
@@ -807,11 +821,11 @@ footer section:nth-of-type(4) h3 {
 .page2 main section:nth-of-type(3) p {
   font-family: 'roboto';
   font-weight: normal;
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: var(--main-color);
 }
 
-/* section 3  articles 1 */
+/* section 3  articles 1 begin - producten filteren uitklap menu / a, nav en img*/
 .page2 main section:nth-of-type(3) article:nth-of-type(1) {
   display: flex;
   flex-direction: row;
@@ -825,50 +839,78 @@ footer section:nth-of-type(4) h3 {
   padding-bottom: 1em;
 }
 
-/* VRAAG NAAR SUMMARY EN FILTER & SORTEREN UITKLAP MENU*/
-.page2 main section:nth-of-type(3) article:nth-of-type(1) details summary{
-  font-family: 'roboto';
-  font-size: 1em;
-  margin-left: 1em;
-  color: var(--main-color);
-}
 
 
-.page2 main section:nth-of-type(3) article:nth-of-type(1) a{ /*filteren en sorteren link*/
+
+.page2 main section:nth-of-type(3) article:nth-of-type(1) a {
+  /*filteren en sorteren link*/
   font-family: 'roboto';
   font-size: 1em;
   text-decoration: none;
   color: var(--main-color);
 }
 
-.page2 .filter-menu { /*Waar het menu komt te staan*/
+.page2 .filter-menu {
+  /*Waar het filteren en sorteren menu komt te staan*/
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: red;
+  background: var(--body-background-color);
   z-index: 5;
   transform: translateX(100%);
 }
 
-.page2 .filter-menu.menu-open { /*Hoe het menu gaat uitklappen*/
+.page2 .filter-menu.menu-open {
+  /*Hoe het menu gaat uitklappen*/
   transform: translateX(0);
 }
 
-.page2 section:nth-of-type(3) article:nth-of-type(1) nav ul li{
-  list-style: none;
+.page2 section:nth-of-type(3) article:nth-of-type(1) nav ul a {
+  /*menu items flexen*/
+  display: flex;
+  justify-content: center;
+  background-color: var(--body-background-color);
 }
 
+.page2 section:nth-of-type(3) article:nth-of-type(1) nav ul a img {
+  /*menu kruisje flexen*/
+  width: 2em;
+  margin-top: 1em;
+  background-color: var(--body-background-color);
+}
 
+.page2 section:nth-of-type(3) article:nth-of-type(1) nav li h2 {
+  /*menu titel*/
+  font-family: 'Times New Roman';
+  font-size: 1.5em;
+  color: var(--main-color);
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+}
 
-.page2 main section:nth-of-type(3) article:nth-of-type(1) img{
+.page2 section:nth-of-type(3) article:nth-of-type(1) nav ul li {
+  /*menu list items vormgeven*/
+  list-style: none;
+
+  font-family: 'roboto';
+  font-size: 1.3em;
+
+  line-height: 3em;
+  color: var(--menu-item-color);
+}
+
+.page2 main section:nth-of-type(3) article:nth-of-type(1) img {
+  /*icon van filteren en sorteren link*/
   width: 7%;
   margin-left: 0.5em;
 }
 
+/* section 3  articles 1 einde - producten filteren uitklap menu / a, nav en img*/
 
-/* section 3  articles 2 */
+
+/* section 3  articles 2 begin - informatie over de producten hoeveel er te bekijken zijn en hoe je deze wilt zien / ul, li, a */
 .page2 main section:nth-of-type(3) article:nth-of-type(2) {
   display: flex;
   flex-direction: row;
@@ -883,9 +925,6 @@ footer section:nth-of-type(4) h3 {
   background-color: none;
 }
 
-
-
-
 .page2 main section:nth-of-type(3) article:nth-of-type(2) ul {
   display: flex;
   flex-direction: row;
@@ -897,7 +936,8 @@ footer section:nth-of-type(4) h3 {
   list-style: none;
   display: flex;
   justify-content: flex-start;
-  padding: 1em;
+
+  padding: 0.8em;
 }
 
 .page2 main section:nth-of-type(3) article:nth-of-type(2) ul li a {
@@ -907,14 +947,10 @@ footer section:nth-of-type(4) h3 {
   color: var(--main-color);
 }
 
+/* section 3  articles 2 einde - informatie over de producten hoeveel er te bekijken zijn en hoe je deze wilt zien / ul, li, a */
 
 
-
-
-
-
-
-/* section 3  articles 3 */
+/* section 3  articles 3 begin - hier staan alle producten met de informatie / ul, li, p, img */
 .page2 main section:nth-of-type(3) article:nth-of-type(3) {
   display: flex;
   flex-direction: row;
@@ -961,7 +997,8 @@ footer section:nth-of-type(4) h3 {
   max-width: 43vw;
 }
 
-.page2 main section:nth-of-type(3) article:nth-of-type(3) ul li img:nth-of-type(2) {
+.page2 main section:nth-of-type(3) article:nth-of-type(3) ul li img:nth-of-type(2),
+img:nth-of-type(3) {
   width: 15%;
   position: absolute;
   /*dit is de positie van het hartje op de afbeelding (parent li) kan je hem verplaatsen met top, bottom, right en left */
@@ -969,6 +1006,13 @@ footer section:nth-of-type(4) h3 {
   right: 0em;
 }
 
+.hidden {
+  display: none;
+}
+
+/* section 3  articles 3 einde - hier staan alle producten met de informatie / ul, li, p, img */
+
+/* section 3  articles 4 begin - Meer artikelen laden / a */
 .page2 main section:nth-of-type(3) article:nth-of-type(4) {
   background-image: none;
   width: fit-content;
@@ -991,3 +1035,5 @@ footer section:nth-of-type(4) h3 {
 
   background-color: var(--main-color);
 }
+
+/* section 3  articles 4 begin - Meer artikelen laden / a */
