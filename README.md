@@ -77,7 +77,7 @@ Hm the holiday shop
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik vond het lastig om te bedenken hoe ik alle sections makkelijk kon vormgeven. 
 <img src="./images/code-gesprek1.jpg" width="375px" alt="breakdown van een dynamisch deel">
 <img src="./images/screenshot-website1.png" width="375px" alt="breakdown van een dynamisch deel 1">
 
@@ -109,7 +109,7 @@ In deze meeting werdt aan me uitgelegt hoe ik het beste een section kon vormgeve
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het opzetten van de basis ging wel goed alleen had ik moeite met een article in een section vormtegeven.
  
 <img src="./images/voortgang2-html.jpg" width="375px" alt="html">
  
@@ -177,8 +177,7 @@ Om te kijken of de website geschikt is voor mensen met een slechtere motoriek kr
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-<img src="./images/voortgang3.png" width="375px" alt="html">
+Eigenlijk ging alles wel goed ik was voor een groot deel al klaar en wilde bij deze voortgang nog een paar vragen stellen om de puntjes op de i te zetten. Zo kreeg ik hulp bij het aan en uit zetten van de favorieten functie.<img src="./images/voortgang3.png" width="375px" alt="html">
 
 
 ### Agenda voor meeting
