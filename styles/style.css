@@ -350,7 +350,7 @@ section:nth-of-type(4) li {
   padding: 0.8em;
 }
 
-section:nth-of-type(4) li h5 {
+section:nth-of-type(4) li h3 {
   order: 2;
 }
 
@@ -384,7 +384,7 @@ section:nth-of-type(5) {
 /* section 5 einde - 2de tekst vak Win je aankoopbedrag terug*/
 
 
-/* section 6 begin - The gist guide section met achtergrond afbeelding en een donkere overlay h1, h2, p*/
+/* section 6 begin - The gist guide section met achtergrond afbeelding en een donkere overlay h2, h3, p*/
 section:nth-of-type(6) {
   display: flex;
   flex-direction: column;
@@ -400,16 +400,19 @@ section:nth-of-type(6) {
   padding-bottom: 1em;
 }
 
-section:nth-of-type(6) h1 {
+section:nth-of-type(6) h2 {
   color: var(--color-white);
   font-size: 1em;
 }
 
-section:nth-of-type(6) h2 {
+section:nth-of-type(6) h3 {
   color: var(--color-white);
   font-family: 'Times New Roman';
   font-weight: lighter;
   font-size: 1.3em;
+  z-index: 2;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 section:nth-of-type(6) p {
@@ -434,7 +437,7 @@ section:nth-of-type(7) {
   margin: 1.5em;
 }
 
-section:nth-of-type(7) h1 {
+section:nth-of-type(7) h2 {
   color: var(--red-color);
 }
 
@@ -481,7 +484,7 @@ section:nth-of-type(9) {
   background-color: var(--second-background-color);
 }
 
-section:nth-of-type(9) h1 {
+section:nth-of-type(9) h2 {
   font-family: 'roboto';
   font-size: 2em;
   font-weight: inherit;
@@ -495,7 +498,7 @@ section:nth-of-type(9) p {
   line-height: 2em;
 }
 
-section:nth-of-type(9) h4 {
+section:nth-of-type(9) h3 {
   font-family: 'roboto';
   text-transform: uppercase;
   line-height: 2em;
@@ -503,7 +506,7 @@ section:nth-of-type(9) h4 {
   color: var(--main-color);
 }
 
-/* section 9 einde - Magazine h1, p, h4*/
+/* section 9 einde - Magazine h2, p, h4*/
 
 
 /* Hier beginnen de article in section 9 */
@@ -533,6 +536,8 @@ section article:nth-of-type(1) {
 section article:nth-of-type(1) h2 {
   color: var(--color-white);
   font-family: 'Times New Roman';
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 section article:nth-of-type(1) p {
@@ -560,6 +565,8 @@ section article:nth-of-type(2) {
 section article:nth-of-type(2) h2 {
   color: var(--color-white);
   font-family: 'Times New Roman';
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 section article:nth-of-type(2) p {
@@ -587,6 +594,8 @@ section article:nth-of-type(3) {
 section article:nth-of-type(3) h2 {
   color: var(--color-white);
   font-family: 'Times New Roman';
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 section article:nth-of-type(3) p {
@@ -986,6 +995,14 @@ footer section:nth-of-type(4) h3 {
 }
 
 .page2 main section:nth-of-type(3) article:nth-of-type(3) ul li h3 {
+  font-family: 'roboto';
+  font-size: 0.8em;
+  font-weight: normal;
+  color: var(--menu-item-color);
+  margin-bottom: 0.4em;
+}
+
+.page2 main section:nth-of-type(3) article:nth-of-type(3) ul li p:nth-of-type(2) {
   font-family: 'roboto';
   font-size: 0.8em;
   font-weight: normal;
