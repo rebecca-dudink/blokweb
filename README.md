@@ -232,33 +232,30 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
  
 
  
-  Flex box:
+  Flex box - om alles te flexen:
 [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
  [https://flexboxfroggy.com/#nl](https://flexboxfroggy.com/#n
 
 [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
  
-Background image
+Background image - voor de achtergrond van de sections:
  [https://codepen.io/rebecca_hva/pen/OJjYaeW?editors=1100](https://codepen.io/rebecca_hva/pen/OJjYaeW?editors=1100)
 [https://www.w3schools.com/cssref/pr_background-image.asp](https://www.w3schools.com/cssref/pr_background-image.asp)
 
-Color picker
+Color picker - voor een kleur code te krijgen.
 [https://www.google.com/search?q=css+color+picker&oq=css+col&aqs=chrome.1.0i512l2j69i57j0i512l7.2555j0j7&sourceid=chrome&ie=UTF-8](https://www.google.com/search?q=css+color+picker&oq=css+col&aqs=chrome.1.0i512l2j69i57j0i512l7.2555j0j7&sourceid=chrome&ie=UTF-8)
  
-nth of type:
+nth of type - om verschillende sections voortegeven:
 [https://css-tricks.com/the-difference-between-nth-child-and-nth-of-type/](https://css-tricks.com/the-difference-between-nth-child-and-nth-of-type/)
  
-Line height:
+Line height - voor ruimte tussen de tekst:
  [https://www.w3schools.com/cssref/pr_dim_line-height.asp](https://www.w3schools.com/cssref/pr_dim_line-height.asp)
 
  
- Summary tags:
+ Summary tags - voor filter en in footer:
 [https://www.w3schools.com/tags/tag_summary.asp](https://www.w3schools.com/tags/tag_summary.asp)
 
 
- 
- Line height:
-[https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-shadow](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-shadow)
 
 </details>
