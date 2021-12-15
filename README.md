@@ -230,15 +230,21 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
  
- Text shadow:
 
-[https://css3gen.com/text-shadow/](https://css3gen.com/text-shadow/) 
  
   Flex box:
 [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+ [https://flexboxfroggy.com/#nl](https://flexboxfroggy.com/#n
 
- Css gardient
-[https://cssgradient.io/](https://cssgradient.io/)
+[https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+ 
+Background image
+ [https://codepen.io/rebecca_hva/pen/OJjYaeW?editors=1100](https://codepen.io/rebecca_hva/pen/OJjYaeW?editors=1100)
+[https://www.w3schools.com/cssref/pr_background-image.asp](https://www.w3schools.com/cssref/pr_background-image.asp)
+
+Color picker
+[https://www.google.com/search?q=css+color+picker&oq=css+col&aqs=chrome.1.0i512l2j69i57j0i512l7.2555j0j7&sourceid=chrome&ie=UTF-8](https://www.google.com/search?q=css+color+picker&oq=css+col&aqs=chrome.1.0i512l2j69i57j0i512l7.2555j0j7&sourceid=chrome&ie=UTF-8)
  
 nth of type:
 [https://css-tricks.com/the-difference-between-nth-child-and-nth-of-type/](https://css-tricks.com/the-difference-between-nth-child-and-nth-of-type/)
@@ -250,8 +256,6 @@ Line height:
  Summary tags:
 [https://www.w3schools.com/tags/tag_summary.asp](https://www.w3schools.com/tags/tag_summary.asp)
 
-Box shadow:
-[https://www.w3schools.com/cssref/css3_pr_box-shadow.asp](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)
 
  
  Line height:
